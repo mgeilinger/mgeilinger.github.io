@@ -1,0 +1,41 @@
+body {
+	background: linear-gradient(135deg, #6699ff, #0044cc);
+}
+
+h1 {
+	font-family: Tahoma;
+	font-size: 30px;
+	color:white;
+}
+
+h5 {
+	font-family: Tahoma;
+	color:white;
+	font-size: 1.5em;
+}
+
+p, li {
+	color:white;
+	font-size: 1em;
+	font-family: Helvetica, arial, sans-serif;
+}
+
+img {
+	float:right;
+	height: 300px;
+}
+
+.column-left {
+	border: 1px solid black;
+	float: left;
+	width: 33%;
+}
+.column-center {
+	border: 1px solid black;
+	display: inline-block;
+	width: 33%;
+}
+.column-right {
+	float: right;
+	width: 33%;
+}
